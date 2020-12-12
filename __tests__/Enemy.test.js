@@ -57,22 +57,3 @@ test('gets a description of the enemy', () => {
     expect(enemy.getDescription()).toEqual(expect.stringContaining('goblin'));
     expect(enemy.getDescription()).toEqual(expect.stringContaining('sword'));
 });
-
-// test('adds a potion to the inventory', () => {
-//     const player = new Player('Dave');
-//     const oldCount = player.inventory.length;
-  
-//     player.addPotion(new Potion());
-  
-//     expect(player.inventory.length).toBeGreaterThan(oldCount);
-// });
-
-// test('uses a potion from inventory', () => {
-//     const player = new Player ('Dave');
-//     player.inventory = [new Potion(), new Potion (), new Potion ()];
-//     const oldCount = player.inventory.length;
-
-//     player.usePotion(1);
-
-//     expect(player.inventory.length).toBeLessThan(oldCount);
-// });
